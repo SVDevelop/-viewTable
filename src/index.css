@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.desk {
+  position: absolute;
+  border: 1px solid red;
+  width: 70px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 30%;
+  border: 1px solid red;
+  width: 110px;
+  height: 60px;
+}
+.pillar {
+  position: absolute;
+  border: 1px solid red;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
